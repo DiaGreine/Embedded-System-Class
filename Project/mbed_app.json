@@ -1,0 +1,21 @@
+{
+    "config": {
+        "wifi-shield": {
+            "help": "Options are internal, WIFI_ESP8266, WIFI_IDW0XX1, WIFI_ISM43362",
+            "value": "WIFI_ISM43362"
+        },
+        "wifi-ssid": {
+            "help": "WiFi SSID",
+            "value": "\"Punpun\""
+        },
+        "wifi-password": {
+            "help": "WiFi Password",
+            "value": "\"0818327450\""
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true
+        }
+    }
+}
